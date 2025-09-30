@@ -1,0 +1,33 @@
+.quadro-cultural h1 {
+  text-align: center;
+}
+
+.catalogo-eventos {
+  list-style-type: none;
+  padding: 0;
+  font-family: sans-serif; 
+}
+
+.cartao-evento {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 5px; 
+}
+.titulo-evento {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.etiqueta-preco {
+  color: white; 
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.etiqueta-gratis {
+  background-color: green;
+}
+
+.etiqueta-pago {
+  background-color: crimson;
+}
